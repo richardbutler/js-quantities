@@ -107,7 +107,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     "<liter>" : [["l","L","liter","liters","litre","litres"], 0.001, "volume", ["<meter>","<meter>","<meter>"]],
     "<gallon>":  [["gal","gallon","gallons"], 0.0037854118, "volume", ["<meter>","<meter>","<meter>"]],
     "<quart>":  [["qt","quart","quarts"], 0.00094635295, "volume", ["<meter>","<meter>","<meter>"]],
-    "<pint>":  [["pt","pint","pints"], 0.000473176475, "volume", ["<meter>","<meter>","<meter>"]],
+    "<pint>":  [["pt","pint","pints"], 0.000568261485, "volume", ["<meter>","<meter>","<meter>"]],
     "<cup>":  [["cu","cup","cups"], 0.000236588238, "volume", ["<meter>","<meter>","<meter>"]],
     "<fluid-ounce>":  [["floz","fluid-ounce"], 2.95735297e-5, "volume", ["<meter>","<meter>","<meter>"]],
     "<tablespoon>":  [["tbs","tablespoon","tablespoons"], 1.47867648e-5, "volume", ["<meter>","<meter>","<meter>"]],
@@ -134,8 +134,8 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     "<temp-R>"  : [["tempR"], 5/9, "temperature", ["<temp-K>"]],
 
     /* time */
-    "<second>":  [["s","sec","second","seconds"], 1.0, "time", ["<second>"]],
-    "<minute>":  [["min","minute","minutes"], 60.0, "time", ["<second>"]],
+    "<second>":  [["s","sec","secs","second","seconds"], 1.0, "time", ["<second>"]],
+    "<minute>":  [["min","mins","minute","minutes"], 60.0, "time", ["<second>"]],
     "<hour>":  [["h","hr","hrs","hour","hours"], 3600.0, "time", ["<second>"]],
     "<day>":  [["d","day","days"], 3600*24, "time", ["<second>"]],
     "<week>":  [["wk","week","weeks"], 7*3600*24, "time", ["<second>"]],
